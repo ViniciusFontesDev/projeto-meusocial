@@ -1,0 +1,89 @@
+@charset "UTF - 8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+body{
+    background: url(../imagem/fundo-preto.jpeg) no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+}
+
+section#iphone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    height: 627px;
+    width: 311px;
+    background: url(../imagem/frame-iphone.png) no-repeat;
+}
+
+iframe{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 267px;
+    height: 471px;
+}
+
+section#socialum{
+    position: absolute;
+    width: 80px;
+    top: 30%;
+    left: 3%;
+}
+
+section#socialum img{
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.700);
+    transition: border-radius 1s, margin-bottom 1s;
+}   
+
+section#socialum > a > img:hover{
+    border: 1px solid white;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.700);
+    transition: transform .5s, border  .5s, box-shadow .5s;
+}
+
+section#socialdois{
+    position: absolute;
+    width: 80px;
+    top: 30%;
+    left: 82%;
+}
+
+section#socialdois img{
+    width: 70px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.700);
+    transition: border-radius 1s, margin-bottom 1s;
+}   
+
+section#socialdois > a > img:hover{
+    border: 1px solid white;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.700);
+    transition: transform .5s, border  .5s, box-shadow .5s;
+    transition-timing-function: ease;
+}
