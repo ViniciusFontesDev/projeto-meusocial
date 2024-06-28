@@ -57,7 +57,7 @@ section#socialum img{
     transition: border-radius 1s, margin-bottom 1s;
 }   
 
-section#socialum > a > img:hover{
+main > section#socialum > a > img:hover{
     border: 1px solid white;
     transform: scale(1.1);
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.700);
