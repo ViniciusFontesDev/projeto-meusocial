@@ -10,6 +10,6 @@ TV and Extra Large Screens – 1201px and more
 
 @media screen and (min-width: 768px) /*Laptops pra cima*/ {
     div#social > section#socialdois{
-        left: 90%;
+        left: 89%;
     }
 }
